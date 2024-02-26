@@ -33,7 +33,7 @@ function App(){
 
   const displayRareKickzProject = () => {
     setPicture('rarekickzdemonstration.png')
-    setDescription('I used my knowledge of PHP and MySQL to develop a website for a sneaker store. The website features a fully functional backend with a shopping cart, item listing, and login features. The website was co-developed alongside Dylan Dercourt.')
+    setDescription('I used my knowledge of PHP and MySQL to develop a website for a sneaker store. The website features a fully functional backend with a shopping cart, item listing, and login features. The website was co-developed alongside ddercourt.')
     setSkills('PHP | CSS | React')
   }
 
