@@ -16,7 +16,7 @@ function App(){
   const displayPortfolioProject = () => {
     setPicture('porfoliodemonstration.png')
     setDescription('I used my HTML, CSS, and React knowledge to create a portfolio website for myself. It features my projects, ways to contact me, and a short section about me. This increased my outreach and helped showcase my work to others.')
-    setSkills('HTML | CSS | React')
+    setSkills('HTML | CSS | React | Javascript')
   }
 
   const displayEzCertsProject = () => {
@@ -101,6 +101,7 @@ function App(){
             <span className="skill">SEO</span>
             <span className="skill">Python</span>
             <span className="skill">Django</span>
+            <span className="skill">Javascript</span>
           </div>
         </div>
       </div>
