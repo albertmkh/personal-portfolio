@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7e7ee65.css",
+    "main.js": "/static/js/main.46bb36da.js",
+    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/PPNeueMontreal-Medium.otf": "/static/media/PPNeueMontreal-Medium.0f34f4714f1b26e0dedc.otf",
+    "static/media/PPNeueMontreal-Thin.otf": "/static/media/PPNeueMontreal-Thin.113878d75d11299845e2.otf",
+    "index.html": "/index.html",
+    "main.b7e7ee65.css.map": "/static/css/main.b7e7ee65.css.map",
+    "main.46bb36da.js.map": "/static/js/main.46bb36da.js.map",
+    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7e7ee65.css",
+    "static/js/main.46bb36da.js"
+  ]
+}
