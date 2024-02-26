@@ -1,0 +1,15 @@
+@font-face {
+  font-family: NeueMontreal;
+  src: url(/public/PPNeueMontreal-Thin.otf);
+}
+
+@font-face {
+  font-family: NeueMontreaMedium;
+  src: url(/public/PPNeueMontreal-Medium.otf);
+}
+
+*{
+  font-family: NeueMontreal;
+  color: white;
+  background-color: #809391;
+}
