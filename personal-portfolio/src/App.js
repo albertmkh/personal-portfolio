@@ -11,7 +11,7 @@ function App(){
 
   const [picture, setPicture] = useState('porfoliodemonstration.png');
   const [description, setDescription] = useState('I used my knowledge in HTML, CSS, and React to create a portfolio website for myself. It features all of my projects, ways to contact me, and a short section about me. This increased my outreach and helped showcase my work to others.')
-  const [skills, setSkills] = useState('HTML | CSS | React')
+  const [skills, setSkills] = useState('HTML | CSS | React | Javascript')
 
   const displayPortfolioProject = () => {
     setPicture('porfoliodemonstration.png')
