@@ -76,7 +76,7 @@ function App(){
       </div>
       <div ref={aboutRef} className='about-page'>
         <div className="about-me">
-          I am a Full Stack Web Developer and an App Developer based out of Los Angeles, CA. I am currently a junior at UCLA and plan to graduate June 2025. For any further information, don't hesitate to contact me.<br></br>
+          I am a Full Stack Web Developer and an App Developer based out of Los Angeles, CA. I am currently a junior at UCLA and plan to graduate June 2025. For any further information, don't hesitate to <button onClick={() => {contactRef.current?.scrollIntoView({behavior: 'smooth'})}}>contact me.</button><br></br>
           <a href='https://docs.google.com/document/d/1cvg8wWYZ2zX3r4es-xCAZBQvJhuShDsbAIjCpp4J5SU/edit?usp=sharing'>
             <button className="about-resume" type="submit">
               My Resume

@@ -161,7 +161,7 @@ a#scroll-btn:before {
   display: flex;
   border: 0.2rem solid white;
   width: 30vw;
-  height: 175px;
+  height: 15vh;
   border-radius: 67px;
   margin: 0;
   padding: 0;
@@ -260,6 +260,7 @@ a#scroll-btn:before {
 .contact-text{
   font-size: 1.2rem;
   margin: 1rem;
+  text-align: center;
 }
 
 .contact-name{
@@ -345,9 +346,10 @@ a#scroll-btn:before {
 }
 
 .about-me{
-  font-size: 2rem;
+  font-size: 3rem;
   width: 60vw;
   text-align: center;
+  margin-left: 1rem;
 }
 .about-skills{
   width: 40vw;
@@ -359,7 +361,7 @@ a#scroll-btn:before {
 }
 
 .skill-title{
-  font-size: 2rem;
+  font-size: 3rem;
   width: max-content;
   padding: 1rem;
   text-align: center;
@@ -380,7 +382,7 @@ a#scroll-btn:before {
   border-radius: 67px;
   padding: 0.5rem;
   text-align: center;
-  margin: 0.5rem;
+  margin: 0.1rem;
 }
 
 .about-resume{
@@ -389,7 +391,139 @@ a#scroll-btn:before {
   border-radius: 67px;
   width:fit-content;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: white;
   color: black;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+  .project{
+    display: flex;
+    border: 0.2rem solid white;
+    width: 30vw;
+    height: 15vh;
+    border-radius: 67px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-text{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .project-title{
+    font-family: NeueMontreaMedium;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .project-description{
+    font-size: 0.65rem;
+    text-align: center;
+  }
+
+  .abt-project{
+    font-size: 1rem;
+    text-align: center;
+    width: 45vw;
+  }
+
+  .project-date{
+    font-size: 0.5rem;
+  }
+
+  .skills-used-text{
+    font-size: 1rem;
+  }
+
+  .smskill{
+    font-size: 0.85rem;
+  }
+
+  image{
+    display: none;
+  }
+
+  .name{
+    font-size: 3rem;
+  }
+
+  .description{
+    font-size: 0.9rem;
+  }
+
+  .image{
+    width: 120%;
+    height: auto;
+  }
+
+  .contact-form{
+    border-radius: 30px;
+  }
+
+  .project{
+    border-radius: 45px;
+  }
+  
+  .about-me{
+    font-size: 1.5rem;
+    width: 60vw;
+    text-align: center;
+    margin-left: 1rem;
+  }
+
+  .about-resume{
+    font-size: 1.5rem;
+    border: 0.2rem solid white;
+    border-radius: 67px;
+    width:fit-content;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+  }
+
+  .skill-title{
+    font-size: 1.5rem;
+    width: max-content;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .skill{
+    font-size: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 67px;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0.1rem;
+  }
+
+  .contact-submit{
+    font-size: 1rem;
+    border: 0.2rem solid white;
+    border-radius: 67px;
+    width:fit-content;
+    padding: 0.75rem;
+    background-color: white;
+    color: black;
+  }
+
+  .contact-form{
+    border: 0.2rem solid white;
+    border-radius: 67px;
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
 }
