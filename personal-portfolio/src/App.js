@@ -40,14 +40,11 @@ function App(){
   return(
     <div>
       <div className='mynavbar'>
-        <div className='logo'>
-              AM<span className='blktxt'>._</span>
-        </div>
         <div  className='nav-items'>
-          <button onClick={() => {homeRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt navbt'>//</span>home</button>
-          <button onClick={() => {aboutRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt navbt'>//</span>about</button>
-          <button onClick={() => {projectRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt navbt'>//</span>projects</button>
-          <button onClick={() => {contactRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt navbt'>//</span>contact</button>
+          <button className='navbt' onClick={() => {homeRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt'>.</span>home</button>
+          <button className='navbt' onClick={() => {aboutRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt'>.</span>about</button>
+          <button className='navbt' onClick={() => {projectRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt'>.</span>projects</button>
+          <button onClick={() => {contactRef.current?.scrollIntoView({behavior: 'smooth'})}}><span className='blktxt'>.</span>contact</button>
         </div>
       </div>
       <div className="footer">

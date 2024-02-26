@@ -13,59 +13,52 @@ button:hover{
 }
 
 .image{
-  width: auto;
-  height: 45vh;
+  width: 60%;
+  height: auto;
   border: 0.2rem solid white;
   border-radius: 20px;
   padding: 0.9rem;
 }
 
 .landpg{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .intro{
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .name{
   font-size: 5rem;
+  text-align: center;
 }
 
 .description{
   font-size: 1.5rem;
   align-items: center;
+  text-align: center;
 }
 
 .blktxt{
   color: black;
 }
 
-.logo{
-  font-size: 2rem;
-  margin-left: 4rem;
-  justify-self: flex-start;
-  position: absolute;
-}
-
 .nav-items{
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
-  align-self: center;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer{
@@ -94,14 +87,10 @@ button:hover{
 
 
 .mynavbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
   position: fixed;
-  top: 0;
   width: 100%;
-  padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   z-index: 999;
 }
 
@@ -143,35 +132,35 @@ a#scroll-btn:before {
 
 @media screen and (max-width: 500px) {
   a#scroll-btn {
-    font-size: 12px;
+    font-size: 1em;
   }
 }
 
 .navbt{
   padding-right: 1.5rem;
-  padding-left: 1.5rem;
 }
 
 .projectpg{
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .project-list{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 70px;
+  width: 30vw;
   height: 80vh;
 }
 
 .project{
   display: flex;
   border: 0.2rem solid white;
-  width: 500px;
+  width: 30vw;
   height: 175px;
   border-radius: 67px;
   margin: 0;
@@ -183,7 +172,8 @@ a#scroll-btn:before {
 .project-text{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 20vw;
+  margin: auto;
   align-items: center;
 }
 
@@ -195,7 +185,7 @@ a#scroll-btn:before {
 
 .project-description{
   font-size: 1.1rem;
-  text-align: left;
+  text-align: center;
 }
 
 .project:hover{
@@ -208,6 +198,7 @@ a#scroll-btn:before {
 }
 
 .site{
+  padding: 2rem;
   width: 60vw;
   height: 80vh;
   border: 0.2rem solid white;
@@ -259,7 +250,7 @@ a#scroll-btn:before {
   border: 0.2rem solid white;
   border-radius: 67px;
   height: 75vh;
-  width: 600px;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -268,9 +259,11 @@ a#scroll-btn:before {
 
 .contact-text{
   font-size: 1.2rem;
+  margin: 1rem;
 }
 
 .contact-name{
+  width: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -278,7 +271,7 @@ a#scroll-btn:before {
 
 .contact-name .name-input{
   border: 0.2rem solid white;
-  width: 400px;
+  width: 40vw;
   height: 40px;
   border-radius: 67px;
   margin: 0;
@@ -292,7 +285,7 @@ a#scroll-btn:before {
 
 .contact-email .email-input{
   border: 0.2rem solid white;
-  width: 400px;
+  width: 40vw;
   height: 40px;
   border-radius: 67px;
   margin: 0;
@@ -306,8 +299,8 @@ a#scroll-btn:before {
 
 .contact-message .message-input{
   border: 0.2rem solid white;
-  width: 400px;
-  height: 300px;
+  width: 40vw;
+  height: 25vh;
   border-radius: 67px;
   margin: 0;
   text-align: left;
@@ -343,26 +336,30 @@ a#scroll-btn:before {
 }
 
 .about-page{
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2rem;
 }
 
 .about-me{
-  font-size: 2.5rem;
-  width: 50%;
+  font-size: 2rem;
+  width: 60vw;
+  text-align: center;
 }
 .about-skills{
+  width: 40vw;
+  height: 100vh;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .skill-title{
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: max-content;
   padding: 1rem;
   text-align: center;
@@ -381,9 +378,9 @@ a#scroll-btn:before {
   font-size: 1.5rem;
   border: 0.2rem solid black;
   border-radius: 67px;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .about-resume{
